@@ -1,0 +1,24 @@
+
+
+// common-code folder's files:
+
+
+0 attribute-checker.py:
+  - CHECK / VERIFY THE CREDENTIALS ARE CORRECT OR NOT
+  - USE THIS FOR NEW TYPE OF APP TO GET HTML REFERENCES FROM WEBSITE
+  - USE THIS FILE IF IT IS NEW TYPE OF APP ELSE USE OTHER FILES FOR LOGIN AND BALANCE CHECKING
+  - LESS EFFICIENT{since we need to assian details from html}
+
+0 main-checkbalancewith2details.py:
+  -to check directly from database to here just by pasting the table from user-credentials-from-database.txt 
+  -to check details when u have in this format: mobile  password and known login details of html
+  -# format: mobile      password
+             7353346164      7353346164s
+  -BEST SPEED ONLY IF U HAVE LOGIN DETAILS PRIOR
+
+0 main-checkbalancewith2details.py:
+  -to check Balances only for previously checked details of main-checkbalancewith2details.py 
+  -to check details when u have in this format: mobile  password  balance and to check the balance of Successful details
+    -# format: mobile      password         balance
+             7353346164      7353346164s     100.00
+  -BEST SPEED ONLY IF U HAVE LOGIN DETAILS PRIOR
